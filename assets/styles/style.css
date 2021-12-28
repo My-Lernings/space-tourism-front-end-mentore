@@ -1,0 +1,135 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+#hero_section {
+
+    background-image: url('../home/background-home-desktop.jpg');
+    background-size: cover;
+    background-position: right !important;
+    width: 100% !important;
+}
+#destinations {
+    background-image: url('../destination/background-destination-desktop.jpg');
+      background-size: cover;
+    background-position: right !important;
+    width: 100% !important;
+}
+#technology{
+    background-image: url('../technology/background-technology-desktop.jpg');
+    background-size: cover;
+    background-position: right !important;
+    width: 100% !important;
+}
+#crew{
+    background-image: url('../crew/background-crew-desktop.jpg');
+    object-fit: cover;
+      background-size: cover;
+    background-position: right !important;
+    width: 100% !important;
+}
+.menu-item {
+    padding-bottom: 2rem;  
+    
+}
+.menu-item:active {
+border-bottom : 3 px solid #d0d6f9;
+
+
+}
+.menu-item:hover {
+      border-bottom: 3px solid #d0d6f9;
+
+}
+.mobile_menu_icon {
+    position: absolute;
+    cursor: pointer;
+    display: none;
+}
+.mobile_menu_icon > i {
+    color: #fff;
+}
+.side_transition{
+    width: 0;
+    transition-property: width;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+
+}
+
+.destinations_list_menu >a {
+    color: #fff;  
+    text-decoration: none;
+    
+}
+.destinations_list_menu > a:hover {
+    color : rgb(206, 200, 200);
+}
+.destinations_list_menu > a:active {
+    color : rgb(100, 90, 90);
+}
+
+
+@media only screen and (max-width: 768px) {
+#hero_section {
+
+        background-image: url('../home/background-home-tablet.jpg');
+        background-size: cover;
+        background-position: right !important;
+    }
+    #destinations {
+        background-image: url('../destination/background-destination-tablet.jpg');
+        background-size: cover;
+        background-position: center !important;
+    }
+    #crew {
+        background-image: url('../crew/background-crew-tablet.jpg');
+        background-size: cover;
+        background-position: center !important;
+    }
+    #technology {
+        background-image: url('../technology/background-technology-tablet.jpg');
+        background-size: cover;
+        background-position: center !important;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+  
+
+    #hero_section {
+
+        background-image: url('../home/background-home-mobile.jpg');
+        background-size: cover;
+        background-position: right !important;
+       
+    }
+    #destinations {
+        background-image: url('../destination/background-destination-mobile.jpg');
+        background-size: cover;
+        background-position: center !important;
+    }
+    #crew{
+        background-image: url('../crew/background-crew-mobile.jpg');
+        background-size: cover;
+        background-position: center !important;
+    }
+    #technology{
+        background-image: url('../technology/background-technology-mobile.jpg');
+        background-size: cover;
+        background-position: center !important;
+    }
+    .big_menu {
+        display: none;
+    }
+    .mobile_menu_icon {
+        display: block;
+    }
+    .nav_bar > hr {
+        visibility: hidden;
+    }
+}
+
