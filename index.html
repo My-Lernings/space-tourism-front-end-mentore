@@ -14,9 +14,12 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Satisfy&display=swap" rel="stylesheet">
+ 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+
+
   <link rel="stylesheet" href="./assets/styles/style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
     integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
@@ -41,16 +44,9 @@
           }
         },
         fontSize: {
-          px150: '150px',
-          px100: '100px',
-          px80: '80px',
-          px60: '60px',
-          px40: '40px',
-          px30: '30px',
-          px20: '20px',
-          px15: '15px',
-          px10: '10px',
-          px5: '5px',
+          px150    : '150px',
+          px30   : '30px',
+         
         }
       }
     }
@@ -117,12 +113,12 @@
 
     <div class="h-screen row w-screen">
 
-      <div class="col-md-6 h-2/3  lg:h-screen flex flex-col justify-end items-center">
-        <div class="lg:mb-64 p-6 mb-14 lg:ml-10">
-          <h5 class=" text-px20 md:text-px30 text-center lg:text-left  text-someKindaBlue">SO, YOU WANT TO TRAVEL TO
+      <div class="col-md-6 h-2/3  lg:h-screen flex flex-col justify-end items-center lg:text-left">
+        <div class="lg:mb-64 pl-24 mb-14 lg:ml-10">
+          <h5 class=" text-center lg:text-left  text-someKindaBlue">SO, YOU WANT TO TRAVEL TO
           </h5>
-          <h1 class=" text-px80 md:text-px150 text-center text-white lg:text-left ">SPACE</h1>
-          <p class=" text-px15 text-center p-12 lg:p-4 lg:text-left text-someKindaBlue">Let’s face it; if you want to go
+          <h1 class=" text-center text-white lg:text-left ">SPACE</h1>
+          <p class=" text-center p-12 lg:p-4 lg:text-left text-someKindaBlue">Let’s face it; if you want to go
             to
             space, you might as well
             genuinely go to outer space
@@ -137,7 +133,7 @@
           class="lg:mb-64 h-h128 w-w128 max-h-128 bg-opacity-0 hover:bg-opacity-10 rounded-full bg-white flex items-center justify-center">
           <div class="bg-white h-64 w-64 rounded-full flex justify-center items-center">
             <a href="#destinations">
-              <h2 class="text-px20">Explore</h2>
+              <h4 class="      ">Explore</h4>
             </a>
           </div>
         </div>
@@ -156,7 +152,7 @@
 
       <div class="col-md-6 h-2/5  pt-36 lg:h-screen ">
         <div class="w-full h-full flex flex-col justify-around items-center lg:items-start lg:pl-64">
-          <h2 class="lg:self-stretch text-white text-px20	">00 Pick Your Destination</h2>
+          <h3 class="lg:self-stretch text-white 	">00 Pick Your Destination</h3>
 
           <img id="destination_image" class="object-contain w-64 md:w-96 lg:w-3/4" src="" alt="">
         </div>
@@ -173,7 +169,7 @@
 
           <div class="flex flex-col items-center lg:items-start justify-around">
             <!-- destination  -->
-            <h1 id="destination_name" class="text-px80 md:text-px150 text-center  text-white lg:text-left"></h1>
+            <h1 id="destination_name" class="                 text-center  text-white lg:text-left"></h1>
             <p id="destination_description" class="p-4 text-white"></p>
           </div>
           <hr class="bg-white w-full opacity-10">
@@ -181,12 +177,12 @@
             class="flex flex-col  justify-around items-center space-y-8 lg:space-y-0 lg:space-x-24 lg:flex-row lg:justify-start lg:items-center w-full">
             <!-- Dist and km  -->
             <div class="text-center">
-              <h5 class="text-white text-px20 text-center lg:text-left">Avg. Distance</h5>
-              <h2 id="destination_distance" class="text-white text-px40 text-center lg:text-left">2655065 KM</h2>
+              <h5 class="text-white        text-center lg:text-left">Avg. Distance</h5>
+              <h3 id="destination_distance" class="text-white        text-center lg:text-left">2655065 KM</h3>
             </div>
             <div class="text-center">
-              <h5 class="text-white text-px20 text-center lg:text-left">Est. Time</h5>
-              <h2 id="destination_time" class="text-white text-px40 text-center lg:text-left">65 M</h2>
+              <h5 class="text-white        text-center lg:text-left">Est. Time</h5>
+              <h3 id="destination_time" class="text-white        text-center lg:text-left">65 M</h3>
             </div>
           </div>
 
@@ -209,12 +205,12 @@
 
         <div class="flex flex-col h-full lg:h-3/4 justify-between items-center lg:items-start w-full lg:pl-12 pb-4">
 
-          <h1 class="text-px20 text-white lg:pt-24">Meet your crew</h1>
+          <h4 class="text-white lg:pt-24">Meet your crew</h4>
 
 
           <div class=" pb-6 flex flex-col items-center lg:items-start">
-            <h3 id="crew_role" class="text-center text-white text-px30 opacity-70 mb-16"></h3>
-            <h1 id="crew_name" class="text-center text-white text-px60 mb-16"></h1>
+            <h3 id="crew_role" class="text-center text-white       opacity-70 mb-16"></h3>
+            <h1 id="crew_name" class="text-center text-white        mb-16"></h1>
             <p id="crew_description" class="text-white max-w-3xl	"></p>
           </div>
           <div id="crew_list_menu"
@@ -237,8 +233,8 @@
 
 
       <div
-        class="  col-md-6 h-1/2 pl-0 pr-0 pt-48 lg:h-screen flex flex-col items-end justify-center  space-y-8">
-        <h1 class="text-px20 text-white lg:hidden">Space launch 101</h1>
+        class="  col-md-6 h-1/2 pl-0 pr-0 pt-48 lg:h-screen flex flex-col items-center lg:items-end justify-center  space-y-8">
+        <h5 class="  text-center     text-white lg:hidden">Space launch 101</h5>
         <img id="technologyImage" class=" w-full object-cover h-2/3 lg:h-2/3 lg:w-2/3"
           src="./assets/technology/image-space-capsule-landscape.jpg" alt="">
 
@@ -256,8 +252,8 @@
         </div>
 
         <div class="text-center  lg:felx lg:flex-col  lg:justify-center lg:items-center lg:space-y-12  lg:text-left  ">
-          <h3 class="text-white text-px20">The Technology</h3>
-          <h1 id="technologyHeading" class="text-white text-px60"></h1>
+          <h3 class="text-white       ">The Technology</h3>
+          <h1 id="technologyHeading" class="text-white       "></h1>
           <p id="technologyDescription" class="text-white"> loreum-ips loreum-ips loreum-ips loreum-ips
             loreum-ipsloreum-ipsloreum-ips loreum-ips v loreum-ipsloreum-ips v v v loreum-ips loreum-ips v
             vloreum-ipsloreum-ipsloreum-ips loreum-ips um</p>

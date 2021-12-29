@@ -2,8 +2,25 @@ html {
     scroll-behavior: smooth;
 }
 
+h1,h2,h3,h4,h5,h6 ,p{
+font-family : 'Bellefair', serif;
+}
+h1{
+font-size : 150px!important;
+}
+h2{
+font-size : 100px!important;
+}
 
-
+h3{
+font-size : 56px!important;
+}
+h4{
+font-size : 32px!important;
+}
+h5{
+font-size : 28px!important;
+}
 #hero_section {
 
     background-image: url('../home/background-home-desktop.jpg');
@@ -94,6 +111,23 @@ border-bottom : 3 px solid #d0d6f9;
         background-size: cover;
         background-position: center !important;
     }
+h1 {
+    font-size : 100px !important;
+}
+h2 {
+    font-size : 66px !important;
+}
+
+h3 {
+    font-size : 37px !important;
+}
+h4 {
+    font-size : 21px !important;
+}
+h5 {
+    font-size : 18px !important;
+}
+
 }
 
 
@@ -131,5 +165,23 @@ border-bottom : 3 px solid #d0d6f9;
     .nav_bar > hr {
         visibility: hidden;
     }
+h1 {
+    font-size : 66px !important;
+}
+h2 {
+    font-size : 33px !important;
+}
+
+h3 {
+    font-size : 24px !important;
+}
+h4 {
+    font-size : 18px !important;
+}
+h5 {
+    font-size : 12px !important;
+}
+
+
 }
 
